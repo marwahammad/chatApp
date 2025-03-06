@@ -1,0 +1,113 @@
+/* !max-width 640px */
+@media screen and (max-width: 640px) {
+    #chatApp{
+        padding: .625rem;
+    }
+    .container {
+        width: 100%;
+        flex-direction: column;
+      }
+      .leftPart, .rightPart{
+        width: 100%;
+      }
+      .leftPart .second-background .chat-text {
+        padding: 0;
+      }
+      .rightPart h2 {
+        padding-top: .625rem;
+        font-size: 40px;
+
+      }
+      .leftPart .type-msg{
+        margin: 10px;
+      }
+}
+
+/* !min-width 640px */
+@media screen and (min-width: 640px) {
+    #chatApp{
+        padding: .625rem;
+    }
+    .container {
+        width: 100%;
+        flex-direction: column;
+      }
+      .leftPart, .rightPart{
+        width: 100%;
+      }
+      .leftPart .second-background .chat-text {
+        padding: 0;
+      }
+      .rightPart h2 {
+        padding-top: .625rem;
+        font-size: 40px;
+
+      }
+      .leftPart .type-msg{
+        margin: 10px;
+      }
+}
+
+/* !min-width 768px */
+
+@media screen and (min-width: 768px) {
+    #chatApp{
+        padding: .625rem;
+    }
+    .container {
+        width: 100%;
+        flex-direction: column;
+      }
+      .leftPart, .rightPart{
+        width: 100%;
+      }
+      .leftPart .second-background .chat-text {
+        padding: 0;
+      }
+      .rightPart h2 {
+        padding-top: .625rem;
+        font-size: 40px;
+
+      }
+      .leftPart .type-msg{
+        margin: 10px;
+      }
+}
+
+/* !min-width 1024px */
+@media screen and (min-width: 1024px) {
+    #chatApp{
+        padding: .625rem;
+    }
+    .container {
+        width: 80%;
+        flex-direction: row;
+        gap: 30px;
+      }
+      .leftPart{
+        width: 40%;
+      }
+      .rightPart
+      {
+        width: 50%;
+      }
+      .leftPart .second-background .chat-text {
+        padding: 0;
+      }
+      .rightPart h2 {
+        padding-top: .625rem;
+        font-size: 40px;
+
+      }
+      .leftPart .type-msg{
+        margin: 10px;
+      }
+}
+
+/* !min-width 1280px */
+@media screen and (min-width: 1280px) {
+}
+
+/* !min-width 1536px */
+@media screen and (min-width: 1536px) {
+}
